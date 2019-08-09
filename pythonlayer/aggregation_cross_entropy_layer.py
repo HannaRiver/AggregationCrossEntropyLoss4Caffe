@@ -1,6 +1,5 @@
 import sys
-# sys.path.insert(0, '/media/f/jiakao/project/wheeling/PSPNet')
-sys.path.insert(0, '/work/ocr/certificate/car_certificate/model/CRNN_ACE/caffe-lstm-ocr/python')
+sys.path.insert(0, './model/CRNN_ACE/caffe-lstm-ocr/python')
 import caffe
 import math
 import numpy as np
