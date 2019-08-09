@@ -1,0 +1,38 @@
+src/caffe/layers/instance_norm_layer.cpp: In instantiation of ‘void caffe::InstanceNormLayer<Dtype>::Forward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/instance_norm_layer.cpp:143:2:   required from here
+src/caffe/layers/instance_norm_layer.cpp:54:10: warning: unused variable ‘mutable_expand_mu’ [-Wunused-variable]
+   Dtype* mutable_expand_mu = Expand_Mu_.mutable_cpu_data();
+          ^
+src/caffe/layers/instance_norm_layer.cpp:55:16: warning: unused variable ‘expand_mu’ [-Wunused-variable]
+   const Dtype* expand_mu = Expand_Mu_.cpu_data();
+                ^
+src/caffe/layers/instance_norm_layer.cpp:67:10: warning: unused variable ‘mutable_x_minus_mu’ [-Wunused-variable]
+   Dtype* mutable_x_minus_mu = XMinusMu_.mutable_cpu_data();
+          ^
+src/caffe/layers/instance_norm_layer.cpp:68:16: warning: unused variable ‘x_minus_mu’ [-Wunused-variable]
+   const Dtype* x_minus_mu = XMinusMu_.cpu_data();
+                ^
+src/caffe/layers/instance_norm_layer.cpp: In instantiation of ‘void caffe::InstanceNormLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/instance_norm_layer.cpp:143:2:   required from here
+src/caffe/layers/instance_norm_layer.cpp:103:16: warning: unused variable ‘bottom_data’ [-Wunused-variable]
+   const Dtype* bottom_data = bottom[0]->cpu_data();
+                ^
+src/caffe/layers/instance_norm_layer.cpp: In instantiation of ‘void caffe::InstanceNormLayer<Dtype>::Forward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/instance_norm_layer.cpp:143:2:   required from here
+src/caffe/layers/instance_norm_layer.cpp:54:10: warning: unused variable ‘mutable_expand_mu’ [-Wunused-variable]
+   Dtype* mutable_expand_mu = Expand_Mu_.mutable_cpu_data();
+          ^
+src/caffe/layers/instance_norm_layer.cpp:55:16: warning: unused variable ‘expand_mu’ [-Wunused-variable]
+   const Dtype* expand_mu = Expand_Mu_.cpu_data();
+                ^
+src/caffe/layers/instance_norm_layer.cpp:67:10: warning: unused variable ‘mutable_x_minus_mu’ [-Wunused-variable]
+   Dtype* mutable_x_minus_mu = XMinusMu_.mutable_cpu_data();
+          ^
+src/caffe/layers/instance_norm_layer.cpp:68:16: warning: unused variable ‘x_minus_mu’ [-Wunused-variable]
+   const Dtype* x_minus_mu = XMinusMu_.cpu_data();
+                ^
+src/caffe/layers/instance_norm_layer.cpp: In instantiation of ‘void caffe::InstanceNormLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/instance_norm_layer.cpp:143:2:   required from here
+src/caffe/layers/instance_norm_layer.cpp:103:16: warning: unused variable ‘bottom_data’ [-Wunused-variable]
+   const Dtype* bottom_data = bottom[0]->cpu_data();
+                ^

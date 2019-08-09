@@ -1,0 +1,12 @@
+In file included from src/caffe/3rdparty/ctc_entrypoint.cpp:7:0:
+./include/caffe/3rdparty/detail/cpu_ctc.cuh: In instantiation of ‘CpuCTC<ProbT>::CpuCTC(int, int, void*, int, int) [with ProbT = float]’:
+src/caffe/3rdparty/ctc_entrypoint.cpp:46:63:   required from here
+./include/caffe/3rdparty/detail/cpu_ctc.cuh:77:11: warning: ‘CpuCTC<float>::workspace_’ will be initialized after [-Wreorder]
+     void* workspace_;
+           ^
+./include/caffe/3rdparty/detail/cpu_ctc.cuh:76:9: warning:   ‘int CpuCTC<float>::blank_label_’ [-Wreorder]
+     int blank_label_;
+         ^
+./include/caffe/3rdparty/detail/cpu_ctc.cuh:20:5: warning:   when initialized here [-Wreorder]
+     CpuCTC(int alphabet_size, int minibatch, void* workspace, int num_threads,
+     ^
